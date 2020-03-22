@@ -1,0 +1,33 @@
+//  =============================================
+//  Variables
+//  =============================================
+
+//  Colors ... color tables from paletton.com ===
+    $color-primary: rgba(151,166,55,1);
+    $color-primary-dark: rgba(48,56,0,1);
+    $color-primary-light: rgba(247,251,223,1);
+    $color-secondary: rgba(148,49,86,1);
+    $color-secondary-dark: rgba(50,0,18,1);
+    $color-secondary-light: rgba(233,207,217,1);
+    $color-tertiary: rgba(72,46,116,1);
+    $color-tertiary-dark: rgba(15,1,39,1);
+    $color-tertiary-light: rgba(188,181,200,1);
+    $color-black: rgba(0,0,0,1);
+    $color-gray-dark: rgba(169,169,169,1);
+    $color-gray-light: rgba(211,211,211,1);
+    $color-white: rgba(255,255,255,1);
+    $color-text: rgba(52,52,52,1);
+    $color-text-light: rgba(52,52,52,.8);
+
+//  Fonts =======================================
+    $font-stack-primary: 'Raleway', sans-serif;
+    $font-stack-secondary: 'Bree Serif', serif;
+
+//  Layout ======================================
+    $max-width: 1000px;
+
+//  Breakpoints =================================
+    $break-small: 575px;
+    $break-medium: 768px;
+    $break-large: 992px;
+
