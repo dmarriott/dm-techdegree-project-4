@@ -8,10 +8,10 @@
     @import url($font-url--google);
 }
 
-/* ===================================== */
-/* 24th new comment in utilities.scss */
-/* ===================================== */
-
 //    Calculate em values
+
+@function em($target-font-size, $font-context: $base__font-size) {
+    @return ($target-font-size / $font-context) * 1em;
+}
 
 
