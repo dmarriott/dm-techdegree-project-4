@@ -3,18 +3,18 @@
 /* ============================================= */
 
 * {
-    font-family   : $font-family--primary;
-    font-size     : $base__font-size;
-    color         : #777;
-    box-sizing    : border-box;
+    font-family       : $font-family--primary;
+    font-size         : $base__font-size;
+    color             : #777;
+    box-sizing        : border-box;
   }
   
   p {
-    line-height   : em(24px);
+    line-height       : $base__line-height;
   }
   
   a {
-    text-decoration: none;
+    text-decoration   : none;
   }
   
   
@@ -23,28 +23,28 @@
   /* ============================================= */
   
   .headline-primary {
-    color: #58e1c1;
-    margin-left: 10px;
+    color             : #58e1c1;
+    margin-left       : em(10px);
   }
   
   .headline-secondary {
-    font-weight: 300;
-    color: #777;
+    font-weight       : $font-weight--light;
+    color             : #777;
   }
   
   .link {
-    color: #51ddfc;
-    font-weight: 700;
+    color             : #51ddfc;
+    font-weight       : $font-weight--bold;
   }
   
   .blockquote {
-    font-size: 1.5em;
-    font-weight: 300;
-    font-style: italic;
-    margin-left: 20px;
-    padding-left: 20px;
-    border-left: 8px solid #58e1c1;
-    border-radius: 5px;
+    font-size         : 1.5em;
+    font-weight       : $font-weight--light;
+    font-style        : italic;
+    margin-left       : em(20px);
+    padding-left      : em(20px);
+    border-left       : em(8px) solid #58e1c1;
+    border-radius     : em(5px);
   }
   
   
