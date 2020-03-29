@@ -3,13 +3,14 @@
 /* ============================================= */
 
 * {
-    font-family: 'Lato', sans-serif;
-    color: #777;
-    box-sizing: border-box;
+    font-family   : $font-family--primary;
+    font-size     : $base__font-size;
+    color         : #777;
+    box-sizing    : border-box;
   }
   
   p {
-    line-height: 1.45em;
+    line-height   : em(24px);
   }
   
   a {
