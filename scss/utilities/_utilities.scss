@@ -7,9 +7,10 @@
 @if variable-exists (font-url--google) {
     @import url($font-url--google);
 }
-/* ======================== */
-/* comment in utilities.scss /*
-/* ======================== */
+
+/* ========================= */
+/* comment in utilities.scss */
+/* ========================= */
 
 //    Calculate em values
 
