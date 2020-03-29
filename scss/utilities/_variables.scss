@@ -2,32 +2,67 @@
 //  Variables
 //  =============================================
 
-//  Colors ... color tables from paletton.com ===
-    $color-primary: rgba(151,166,55,1);
-    $color-primary-dark: rgba(48,56,0,1);
-    $color-primary-light: rgba(247,251,223,1);
-    $color-secondary: rgba(148,49,86,1);
-    $color-secondary-dark: rgba(50,0,18,1);
-    $color-secondary-light: rgba(233,207,217,1);
-    $color-tertiary: rgba(72,46,116,1);
-    $color-tertiary-dark: rgba(15,1,39,1);
-    $color-tertiary-light: rgba(188,181,200,1);
-    $color-black: rgba(0,0,0,1);
-    $color-gray-dark: rgba(169,169,169,1);
-    $color-gray-light: rgba(211,211,211,1);
-    $color-white: rgba(255,255,255,1);
-    $color-text: rgba(52,52,52,1);
-    $color-text-light: rgba(52,52,52,.8);
+//  Font stacks =================================
 
-//  Fonts =======================================
-    $font-stack-primary: 'Raleway', sans-serif;
-    $font-stack-secondary: 'Bree Serif', serif;
+$font-url--google           : 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900'; 
+
+$font-family--primary       : 'Lato', 'Neue Helvetica', Helvetica, Arial, sans-serif;
+$font-family--secondary     : 'Neue Helvetica', Helvetica, Arial, sans-serif;
+
+//  Font weights ================================
+
+$font-weight--thin          : 100;
+$font-weight--light         : 300;
+$font-weight--medium        : 400;
+$font-weight--bold          : 700;
+$font-weight--heavy         : 900;
+
+//  Text ========================================
+
+$base__font-size            : 16px;     // font size
+$base__line                 : 24px;     // line height
+
+//  Colors ... color tables from paletton.com ===
+
+    $light-green            : rgba(151,166,55,1);   //color-primary
+    $dark-green             : rgba(48,56,0,1);      //color-primary-dark
+    $very-light-green       : rgba(247,251,223,1);  //color-primary-light
+    $red                    : rgba(148,49,86,1);    //color-secondary
+    $dark-red               : rgba(50,0,18,1);      //color-secondary-dark
+    $light-red              : rgba(233,207,217,1);  //color-secondary-light
+    $purple                 : rgba(72,46,116,1);    //color-tertiary
+    $dark-purple            : rgba(15,1,39,1);      //color-tertiary-dark
+    $light-purple           : rgba(188,181,200,1);  //color-tertiary-light
+    $black                  : rgba(0,0,0,1);        //color-black
+    $dark-gray              : rgba(169,169,169,1);  //color-dark-gray
+    $light-gray             : rgba(211,211,211,1);  //color-light-gray
+    $white                  : rgba(255,255,255,1);  //color-white
+    $dark-brown-100         : rgba(52,52,52,1);     //color-dark-brown-100
+    $dark-brown-80          : rgba(52,52,52,.8);    //color-dark-brown-80
+
+//  Color usage =================================
+
+    $color-primary          : $light-green;
+    $color-primary-dark     : $dark-green;
+    $color-primary-light    : $very-light-green;
+    $color-secondary        : $red;
+    $color-secondary-dark   : $dark-red;
+    $color-secondary-light  : $light-red;
+    $color-tertiary         : $purple;
+    $color-tertiary-dark    : $dark-purple;
+    $color-tertiary-light   : $light-purple;
+    $color-black            : $black;
+    $color-gray-dark        : $dark-gray;
+    $color-gray-light       : $light-gray;
+    $color-white            : $white;
+    $color-text             : $dark-brown-100;
+    $color-text-light       : $dark-brown-80;
 
 //  Layout ======================================
-    $max-width: 1000px;
+    $max-width              : 1000px;
 
 //  Breakpoints =================================
-    $break-small: 575px;
-    $break-medium: 768px;
-    $break-large: 992px;
+    $break-small            : 575px;
+    $break-medium           : 768px;
+    $break-large            : 992px;
 
